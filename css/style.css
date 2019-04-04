@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'AU Passata', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    background-color: #111111;
+}
+
+main {
+    height: 100vh;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 98;
+    background-color: #143427;
+    padding-top: 50px;
+    box-sizing: border-box;
+
+}
+
+nav ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    padding: 10% 0;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 2.5em;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#menu-close {
+    color: white;
+    font-size: 2em;
+
+}
+
+/*Header*/
+header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 99;
+}
+
+#backToHome i {
+    color: #a46913;
+    font-size: 2em;
+}
+
+#logo {
+    height: 100%;
+}
+
+#logo img {
+    height: 100%;
+}
+
+#burgerMenu:before {
+    display: block;
+    content: ' ';
+    background-image: url(../images/menu.svg);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+/*Main Home*/
+#home {
+    height: 100vh;
+    padding: 50px 0;
+    box-sizing: border-box;
+    overflow: none;
+
+}
+
+.row {
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+
+.column {
+    width: 50%;
+    height: 100%;
+}
+
+#scanNew {
+    background: url(../images/scan.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#eco {
+    background: url(../images/craft.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tasks {
+    background: url(../images/tasks.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#herbary {
+    background: url(../images/collection.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#info {
+    background: url(../images/info.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Plant info*/
+#plantInfo {
+    height: 100vh;
+    padding: 50px 0;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.imageWrapper {
+    width: 100%;
+}
+
+.imageWrapper img {
+    width: 100%;
+}
+
+.contentWrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contentWrapper h1 {
+    color: white;
+    font-size: 1.6em;
+    padding-bottom: 10px;
+}
+
+.contentWrapper h2 {
+    color: #dadada;
+    font-size: 1em;
+    padding: 5px 0;
+    font-weight: 100;
+}
+
+.contentWrapper p {
+    color: white;
+
+}
+
+.locationList li {
+    color: #c27b13;
+    padding: 2px 0;
+}
+
+#recipies h2 {
+    background-color: #143427;
+    color: white;
+    margin-top: -5px;
+    text-align: center;
+}
+
+#recipies h1 {
+    color: white;
+    padding: 10px 0;
+    padding-left: 5%;
+}
+
+h1 span {
+    border-bottom: 3px solid #c27b13;
+
+}
+
+h2 span {
+    border-bottom: 3px solid #c27b13;
+
+}
+
+#recipies h3 {
+    color: white;
+    padding-left: 5%;
+    padding-bottom: 5px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.craftingRecipe {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.craftingRecipe img {
+    width: 100%;
+}
+
+/*Crafting list Section*/
+#craftingItems {
+    height: 100vh;
+    padding: 50px 0;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+/*Crafting  Section*/
+#crafting {
+    height: 100vh;
+    padding: 50px 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+
+#itemImage {
+    height: 50%;
+    background-color: #244636;
+}
+
+#itemImage img {
+    margin: 0 auto;
+}
+
+
+
+#ingredients {
+    color: white;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+#ingredients h2 {
+    padding-bottom: 5px;
+}
+
+#craftingOptions {
+    height: 40%;
+}
+
+#craftingTitle {
+    height: 10%;
+    background-color: #255c45;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+#craftingTitle h1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#craftBtn {
+    background-color: #c27b13;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#craftBtn h2 {
+    font-size: 2em;
+}
+
+/*Tasks Tab*/
+#tasksTab {
+    overflow: scroll;
+}
+
+#tasksTab h3 {
+    color: white;
+    padding: 0 5%;
+    padding-bottom: 5px;
+    font-weight: 100;
+}
+
+#tasksTab h1 {
+    color: white;
+    padding: 10px 5%;
+    font-size: 3em;
+    text-transform: uppercase;
+
+}
+
+#tasksWrapper {
+    height: 50%;
+    background-color: #244636;
+}
+
+#tasksWrapper ul {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10% 0;
+}
+
+#tasksWrapper ul li {
+    padding: 10px 0;
+}
+
+#level {
+    width: 100%;
+    text-align: center;
+}
+
+#level h2 {
+    font-size: 2em;
+    color: white;
+    font-weight: 100;
+}
+
+#level p {
+    font-size: 5em;
+    color: #c27b13;
+    font-weight: 400;
+}
+
+/*Herbary*/
+#herbaryTab {
+    overflow: scroll;
+}
+
+#herbaryTab h3 {
+    color: white;
+    padding: 0 5%;
+    padding-bottom: 5px;
+    font-weight: 100;
+}
+
+#herbaryTab h1 {
+    color: white;
+    padding: 10px 5%;
+
+    text-transform: uppercase;
+
+}
+
+#herbaryArticle h2 {
+    background-color: #143427;
+    color: white;
+    margin-top: -5px;
+    text-align: center;
+}
+
+/*Scanner page*/
+#scannerPage h3 {
+    color: white;
+    padding: 0 5%;
+    padding-bottom: 5px;
+    font-weight: 100;
+}
+
+#scannerPage h1 {
+    color: white;
+    padding: 10px 5%;
+
+    text-transform: uppercase;
+
+}
+
+#scannerPage h2 {
+    background-color: #143427;
+    color: white;
+    margin-top: -5px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.scannerPreview {
+    width: 100%;
+    margin-top: 15%;
+
+}
+
+#learnMoreBtn {
+    background-color: #c27b13;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 400;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#plantScanned {
+    margin-top: 10%;
+}
+
+/*Footer*/
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(164, 105, 19);
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .tabs {
+    width: 50%;
+    height: 100%;
+
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.tabs ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.tabs li {
+    width: 50%;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#descTab {
+    background-color: #255c45;
+}
+
+#geoTab {
+    background-color: #c27b13;
+}
+
+#recipiesTab {
+    background-color: #1f4689;
+}
+
+#ecoTab {
+    background-color: #8a6a31;
+}
+
+#cameraBtn {
+    height: 100%;
+    width: 50px;
+    background-color: #111111;
+    margin: 0 auto;
+}
+
+#cameraBtn i {
+    font-size: 2em;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}

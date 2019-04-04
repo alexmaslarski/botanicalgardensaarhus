@@ -1,0 +1,14 @@
+{
+    "name": "Sugar Cane",
+    "id": "sugar_Cane",
+    "image": "images/sugarcane.jpg",
+    "description" : "Sugarcane is tropical grass with high between 2 and 6 meters. It’s part of the economically important seed family alongside rice, maize, wheat and other. The stems grow and become cane stalk that at the point of full-growth consists more than half of the entire plant.",
+    "location": {
+        "locationDescription": "Sugar cane is a tropical plant, and can only be cultivated in countries near the equator or in areas where there are average temperatures of 24°C (75°F), combined with strong sunshine and either heavy seasonal rainfall or plentiful supplies of water for irrigation. Major cane sugar regions include:",
+        "locations": ["Brazil", "India", "China", "Thailand", "Australia", "South Africa", "Mexico", "Guatemala"]
+    },
+    "recipies": [
+        {"title": "Sugar", "image": "images/sugar.jpg"}
+    ]
+    
+}

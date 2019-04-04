@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'AU Passata';
+    src: url('AUPassata-Bold.woff2') format('woff2'),
+        url('AUPassata-Bold.woff') format('woff'),
+        url('AUPassata-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AU Passata';
+    src: url('AUPassataLight-Regular.woff2') format('woff2'),
+        url('AUPassataLight-Regular.woff') format('woff'),
+        url('AUPassataLight-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AU Passata';
+    src: url('AUPassata-Regular.woff2') format('woff2'),
+        url('AUPassata-Regular.woff') format('woff'),
+        url('AUPassata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AU Logo';
+    src: url('AULogo-Bold.woff2') format('woff2'),
+        url('AULogo-Bold.woff') format('woff'),
+        url('AULogo-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AU Peto';
+    src: url('AUPeto-Regular.woff2') format('woff2'),
+        url('AUPeto-Regular.woff') format('woff'),
+        url('AUPeto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AU Logo';
+    src: url('AULogo.woff2') format('woff2'),
+        url('AULogo.woff') format('woff'),
+        url('AULogo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,14 @@
+{
+    "name": "Pomelo",
+    "id": "pomeloFruit",
+    "image": "images/pomelo.jpg",
+    "description" : "Pomelo is a natural fruit that looks awfully like grapefruit, but is far from it. With its’ much larger form, thickness of the rind and sweetness compared to the taste of the grapefruit, they are actually really different from one another. The fruit is used a lot for festive activities in Southeast Asia.",
+    "location": {
+        "locationDescription": "Eighty pomelo samples and 80 soil samples were examined using a multielement component test to predict the geographical origins of pomelos produced in 4 regions (Sichuan, Chongqing, Fujian, and Guangxi Provinces) of China. The concentrations of 8 elements were determined by atomic absorption spectrometry. Ca, K, and Na were the most abundant elements. Principal component analysis (PCA) and linear discriminant analysis (LDA) were applied to reduce the dimensionality of the multielement data from 8 to 2 while retaining the highest possible variance. Using PCA and LDA, 69.66% and 91.30%, respectively, of the pomelo origins were classified correctly using multielement variables, along with 67.06% and 83.40% for soil multielement analysis. Results indicated that the LDA method was more effective for geographical origin classification than PCA. The results of the multielement component test demonstrated its capability to screen pomelo origins rapidly. Regions Include:",
+        "locations": ["Australia", "Thailand","Morocco", "South Africa"]
+    },
+    "recipies": [
+        {"title": "Tequila", "image": "images/tequila.jpg"}
+    ]
+    
+}

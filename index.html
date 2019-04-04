@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Botanical Garden Aarhus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="instascan.min.js"></script>
+    
+
+</head>
+
+<body>
+    <div class="nav hide" id="navigation">
+
+        <nav>
+            <ul>
+                <li><a class="goToScan" href="#">Scan</a></li>
+                <li><a class="goToCraft" href="#">Craft</a></li>
+                <li><a class="goToTasks" href="#">Tasks</a></li>
+                <li><a class="goToHerbary" href="#">Herbary</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <header id="header">
+        <div id="backToHome"><i class="fas fa-home"></i></div>
+        <div id="logo"><img src="images/logo.png" alt=""></div>
+
+        <div id="burgerMenu"></div>
+    </header>
+
+    <!--Home Page-->
+    <main id="home">
+        <article class="row goToScan" id="scanNew"></article>
+        <article class="row" id="secondRow">
+            <section class="column goToCraft" id="eco"></section>
+            <section class="column goToTasks" id="tasks"></section>
+        </article>
+        <article class="row" id="thirdRow">
+            <section class="column goToHerbary" id="herbary"></section>
+            <section class="column goToInfo" id="info"></section>
+        </article>
+    </main>
+
+
+    <main id="plantInfo" class="hide">
+
+        <!--Description Tag-->
+        <article id="description" class="hide">
+            <div class="imageWrapper">
+                <img id="plantImage" src="" alt="">
+            </div>
+            <div class="contentWrapper">
+                <h2>Description</h2>
+                <h1 id="plantInfoName"></h1>
+                <p id="plantInfoDescription"></p>
+            </div>
+
+        </article>
+
+
+        <!--Geography Tab-->
+        <article id="geography" class="hide">
+            <div class="imageWrapper">
+                <img src="images/sugarcanemap.png" alt="">
+            </div>
+            <div class="contentWrapper">
+                <h2>Geography</h2>
+                <h1 id="plantInfoName"></h1>
+                <p id="plantGeographyDescription">
+                </p>
+                <ul class="locationList">
+
+
+                </ul>
+            </div>
+
+        </article>
+        <!--Recipe Tab-->
+        <article id="recipies">
+            <h1><span>Re</span>cipies</h1>
+            <h3>All recipies you can craft with Sugar Cane</h3>
+
+
+        </article>
+
+    </main>
+    <!--Crafting Items-->
+    <main id="craftingItems" class="hide">
+        <article id="recipies">
+            <h1><span>Ch</span>oose which items to craft</h1>
+            <h3>For each item crafted, you will recieve more knowledge about it.</h3>
+            <div class="craftingRecipe">
+                <img src="images/tequila.jpg" alt="">
+                <h2>Tequila</h2>
+            </div>
+            <div class="craftingRecipe">
+                <img src="images/sugar.jpg" alt="">
+                <h2>Sugar</h2>
+            </div>
+            <div class="craftingRecipe">
+                <img src="images/aloevera.jpg" alt="">
+                <h2>Aloe Vera</h2>
+            </div>
+            <div class="craftingRecipe">
+                <img src="images/tequila.jpg" alt="">
+                <h2>Tequila</h2>
+            </div>
+            <div class="craftingRecipe">
+                <img src="images/sugar.jpg" alt="">
+                <h2>Sugar</h2>
+            </div>
+            <div class="craftingRecipe">
+                <img src="images/aloevera.jpg" alt="">
+                <h2>Aloe Vera</h2>
+            </div>
+            <div class="craftingRecipe">
+                <img src="images/tequila.jpg" alt="">
+                <h2>Tequila</h2>
+            </div>
+            <div class="craftingRecipe">
+                <img src="images/sugar.jpg" alt="">
+                <h2>Sugar</h2>
+            </div>
+            <div class="craftingRecipe">
+                <img src="images/aloevera.jpg" alt="">
+                <h2>Aloe Vera</h2>
+            </div>
+            <div class="clearfix"></div>
+        </article>
+    </main>
+    <!--Crafting Menu-->
+    <main id="crafting" class="hide">
+        <article class="row" id="itemImage"><img src="images/tequila.jpg" alt=""></article>
+        <article class="row" id="craftingTitle">
+            <h1><span>Te</span>quila</h1>
+
+        </article>
+        <article class="row" id="craftingOptions">
+            <section class="column" id="ingredients">
+
+                <h2><span>In</span>gredients:</h2>
+                <ul>
+                    <li>Baby Agave 1/1</li>
+                    <li>Sugar 0/1</li>
+                    <li>Water 0/1</li>
+                </ul>
+
+
+            </section>
+            <section class="column" id="craftBtn">
+                <h2>CRAFT</h2>
+            </section>
+        </article>
+
+    </main>
+    <!--Tasks-->
+    <main id="tasksTab" class="hide">
+        <h1><span>Yo</span>ur tasks:</h1>
+        <h3>Acomplish these tasks and raise your ecology level</h3>
+        <article class="row" id="tasksWrapper">
+            <ul>
+                <li>1. Craft 5 Tequilas (2/5)</li>
+                <li>2. Find 10 different Plants (2/10)</li>
+                <li>3. Find 3 plants in the Tropehuset (1/3)</li>
+            </ul>
+        </article>
+        <div id="level">
+            <h2>Level</h2>
+            <p>2</p>
+        </div>
+    </main>
+    <!--Herbary-->
+    <main id="herbaryTab" class="hide">
+        <article id="herbaryArticle">
+            <h1><span>We</span>lcome to your herbary</h1>
+            <h3>Here you can see all the plants you have scanned.</h3>
+
+            <div class="craftingRecipe" id="mysteryPlant">
+                <img src="images/missing.jpg" alt="">
+
+            </div>
+
+
+
+        </article>
+    </main>
+    <main id="scannerPage" class="hide">
+        <h1><span>Sc</span>an new plants</h1>
+        <h3>Scan their QRCodes to learn more...</h3>
+        <video class="scannerPreview" id="preview" playsinline></video>
+        <div id="plantScanned" class="hide">
+
+            <h2 id="plantNameScan">Plant Name</h2>
+
+            <div id="learnMoreBtn">
+                Learn More
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="tabs hide">
+            <ul>
+                <li id="descTab">Description</li>
+                <li id="geoTab">Geography</li>
+            </ul>
+        </div>
+        <div id="cameraBtn"><i class="fas fa-camera"></i></div>
+        <div class="tabs hide">
+            <ul>
+                <li id="recipiesTab">Recipies</li>
+                <li id="ecoTab">Eco</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
