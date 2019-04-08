@@ -283,6 +283,7 @@ h2 span {
 #craftingTitle h1 {
     width: 80%;
     margin: 0 auto;
+    color: white;
 }
 
 #craftBtn {
@@ -424,6 +425,29 @@ h2 span {
 
 #plantScanned {
     margin-top: 10%;
+}
+
+
+/*Info page*/
+#infoTab h3 {
+    color: white;
+    padding: 0 5%;
+    padding-bottom: 5px;
+    font-weight: 100;
+}
+
+#infoTab h1 {
+    color: white;
+    padding: 10px 5%;
+
+}
+
+.mapWrapper {
+    width: 100%;
+}
+
+.mapWrapper img {
+    width: 100%;
 }
 
 /*Footer*/
